@@ -37,7 +37,7 @@ for( x in 5 : 10){
 
 for(x in 1:10){
   if(x==5)
-    next
+    next    # Next is similar to continue keyword of C
   if(x==8)
     break
   print(x)
