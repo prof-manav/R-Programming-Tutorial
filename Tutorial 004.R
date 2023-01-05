@@ -35,5 +35,5 @@ v1 = "Hello"
 v2 = "Manav"
 # v3 = v1 + v2 does not work on non-numeric variable
 v3 = paste(v1, v2)
-print(v3)
+print(v3) # Print "Hello Manav"
 
