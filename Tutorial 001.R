@@ -43,5 +43,5 @@ d = T  # T or TRUE (All caps is necessary)
 typeof(d) #Logical
 
 e = FALSE
-typeof(e) # Logocal
+typeof(e) # Logical
 
