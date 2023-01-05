@@ -17,13 +17,14 @@ while(TRUE){       # If you run this loop then you will print "Hello R"
   print("Hello R")  # infinite time, because condition is always TRUE
 }                   # So it will not go out of Loop
 
-# This Program will Print "Hello R", 5 times.
 
 counter = 1
 while(counter <= 5){
   print("Hello R")
   counter = counter + 1
 }
+
+# This Program will Print "Hello R", 5 times.
 
 # Program to calculate factorial(n)
 
