@@ -33,11 +33,11 @@ v9 = v1 %/% v2 #Integer Division
 print(v9) # 1
 
 v10 = sqrt(v1)
-print(v10)
+print(v10) # 2.4495
 
 v1 = "Hello"
 v2 = "Manav"
 # v3 = v1 + v2 does not work on non-numeric variable
 v3 = paste(v1, v2)
-print(v3)
+print(v3) # "Hello Manav"
 
