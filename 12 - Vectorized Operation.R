@@ -70,10 +70,10 @@ print(r2) # 32 35 41 32 35 41 32 35 41 32 35 41
 v7 <- c(1, 12, 17)
 v8 <- c(31, 23, 24, 31, 23)
 
-r3 <- v7 + v8  # If size are not same then R perform operation called Vector Re-cycling
-# Size of v7 is increased and make equal to size of v8, and copied same data again and again till size are equal
-# V3 becomes :  (1, 12, 17, 1, 12) 
-# Check the output and try to understand
+r3 <- v7 + v8   # If size are not same then R perform operation called Vector Re-cycling
+                # Size of v7 is increased and make equal to size of v8, and copied same data again and again till size are equal
+                # V3 becomes :  (1, 12, 17, 1, 12) 
+                # Check the output and try to understand
 print(r3) # 32 35 41 32 35
 
 
