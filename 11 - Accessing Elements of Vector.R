@@ -6,6 +6,9 @@
 vec1 = c("a", "e", "i", "o", "u")
 
 print(vec1) # "a" "e" "i" "o" "u"
+
+# Accessing Elements one by one
+
 print(vec1[1]) # "a" 
 print(vec1[2]) # "e" 
 print(vec1[3]) # "i" 
@@ -14,6 +17,7 @@ print(vec1[5]) # "u"
 
 
 vec2 = seq(1, 10, 2)
+
 print(vec2) # 1 3 5 7 9
 print(vec2[1]) # 1 (First element)
 print(vec2[-1]) # 3 5 7 9 (All except First element)
@@ -21,6 +25,7 @@ print(vec2[c(-1,-3)]) # 3 7 9 (All except first and third element)
 print(vec2[1:3]) # 1 3 5 (First to third element)
 print(vec2[-(1:3)]) # 7 9 (All except first, second and third)
 print(vec2[c(1,3,5)]) # 1 5 9 (first, third and fifth) 
+print(vec2[c(-1,-3,-5)]) # 3 7 (all except first, third and fifth) 
 print(vec2[3:5]) # 5 7 9 (Third, fourth and fifth elements) 
 
 
@@ -50,6 +55,3 @@ for(i in 1:5)
   print(vec[i]) # "a" "e" "i" "o" "u"
 
 #This is called de-vectorization operation, because we are accessing elements of vector one by one
-
-
-
